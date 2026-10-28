@@ -1,0 +1,43 @@
+{
+  "name": "product-management",
+  "version": "1.0.0",
+  "private": true,
+  "overrides": {
+    "multer": "^2.4.1"
+  },
+  "description": "Advanced Web Technologies - NestJS Lab Task 1",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main.js",
+    "typecheck": "tsc --noEmit",
+    "migration:run": "ts-node src/script/typeorm_migration_run.ts",
+    "migration:rollback": "ts-node src/script/typeorm_migration_rollback.ts",
+    "test": "npm run build && node --test test/*.test.cjs",
+    "test:e2e": "npm test"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.8",
+    "@nestjs/core": "^11.1.8",
+    "@nestjs/platform-express": "^11.1.8",
+    "@nestjs/typeorm": "^11.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "dotenv": "^17.2.3",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "typeorm": "^0.3.27"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.10",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
