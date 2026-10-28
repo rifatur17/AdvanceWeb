@@ -1,9 +1,9 @@
 # NestJS Lab Task 1: Product and Employee Management
 
-Student SL: **[TO BE PROVIDED]**<br>
-Student name: **[TO BE PROVIDED]**<br>
-Student ID: **[TO BE PROVIDED]**<br>
-Section: **[TO BE PROVIDED]**
+Student SL: **17**<br>
+Student name: **Rifatur Rahman**<br>
+Student ID: **23-50462-1**<br>
+Section: **B**
 
 Student details could not be verified from the empty course repository or the reference files. Names in the reference code are teaching examples, not verified student identity.
 
